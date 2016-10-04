@@ -1,0 +1,7 @@
+language: java
+
+jdk:
+  - 1.8.0_20
+
+after_success:
+   - mvn test
